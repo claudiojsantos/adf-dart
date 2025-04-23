@@ -1,0 +1,133 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "name": "Rodrigo Rahman",
+            "email": "rodrigorahman@academiadoflutter.com.br",
+            "password": "123"
+        },
+        {
+            "id": 1,
+            "name": "Guilherme",
+            "email": "guilherme@gmail.com",
+            "password": "1234"
+        }
+    ],
+    "adm_users": [
+        {
+            "id": 1,
+            "name": "Rodrigo Rahman",
+            "email": "rodrigorahman@academiadoflutter.com.br",
+            "password": "123",
+            "profile": "ADMIN"
+        },
+        {
+            "id": 2,
+            "name": "Guilherme",
+            "email": "Guilherme@gmail.com",
+            "password": "1234",
+            "profile": "SUPORTE"
+        }
+    ],
+    "products": [
+        {
+            "id": 0,
+            "title": "Academia do flutter"
+        },
+        {
+            "id": 1,
+            "title": "Jornada Dart"
+        },
+        {
+            "id": 2,
+            "title": "Jornada GetX"
+        }
+    ],
+    "alunos": [
+        {
+            "id": 0,
+            "name": "Rodrigo Rahman",
+            "idade": 30,
+            "nomeCursos": [
+                "Academia do flutter",
+                "Jornada Dart",
+                "Jornada GetX"
+            ],
+            "cursos": [
+                {
+                    "id": 1,
+                    "title": "Academia do flutter",
+                    "isActive": true
+                },
+                {
+                    "id": 2,
+                    "title": "Jornada Dart",
+                    "isActive": true
+                },
+                {
+                    "id": 3,
+                    "title": "Jornada GetX",
+                    "isActive": true
+                },
+                {
+                    "id": 4,
+                    "title": "Jornada Arquitetura",
+                    "isActive": false
+                }
+            ],
+            "endereco": {
+                "CEP": "12345678",
+                "rua": "Rua 1",
+                "numero": "123",
+                "bairro": "Bairro 1",
+                "cidade": {
+                    "id": 1,
+                    "nome": "São Paulo"
+                },
+                "telefone": {
+                    "ddd": "11",
+                    "numero": "123456789"
+                }
+            }
+        },
+        {
+            "id": 1,
+            "name": "Guilherme",
+            "nomeCursos": [
+                "Academia do flutter",
+                "Jornada Dart"
+            ],
+            "cursos": [
+                {
+                    "id": 1,
+                    "title": "Academia do flutter",
+                    "isActive": true
+                },
+                {
+                    "id": 2,
+                    "title": "Jornada Dart",
+                    "isActive": true
+                },
+                {
+                    "id": 3,
+                    "title": "Jornada GetX",
+                    "isActive": false
+                }
+            ],
+            "endereco": {
+                "CEP": "87654321",
+                "rua": "Rua 2",
+                "numero": "456",
+                "bairro": "Bairro 2",
+                "cidade": {
+                    "id": 2,
+                    "nome": "Rio de Janeiro"
+                },
+                "telefone": {
+                    "ddd": "21",
+                    "numero": "987654321"
+                }
+            }
+        }
+    ]
+}
